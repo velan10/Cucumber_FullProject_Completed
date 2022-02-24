@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name= "suite" verbose="2">
+	<test name = "test">
+		<classes>
+			<class name="com.Testing.Dependency_Testing"></class>
+			<class name="com.Testing.Priority_Features"></class>
+			<class name="com.Testing.Simple_Testing"></class>
+		</classes>
+	</test>
+</suite>

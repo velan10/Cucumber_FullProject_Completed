@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group suite" duration-ms="110" started-at="2022-02-19T21:29:25 IST" finished-at="2022-02-19T21:29:25 IST">
+    <groups>
+      <group name="Lenovo">
+        <method signature="Grouping.lenovo1()[pri:0, instance:com.Testing.Grouping@1e7c7811]" name="lenovo1" class="com.Testing.Grouping"/>
+      </group> <!-- Lenovo -->
+      <group name="Vivo">
+        <method signature="Grouping.vivo1()[pri:0, instance:com.Testing.Grouping@1e7c7811]" name="vivo1" class="com.Testing.Grouping"/>
+        <method signature="Grouping.vivo2()[pri:0, instance:com.Testing.Grouping@1e7c7811]" name="vivo2" class="com.Testing.Grouping"/>
+      </group> <!-- Vivo -->
+    </groups>
+    <test name="Group test" duration-ms="110" started-at="2022-02-19T21:29:25 IST" finished-at="2022-02-19T21:29:25 IST">
+      <class name="com.Testing.Grouping">
+        <test-method status="PASS" signature="lenovo1()[pri:0, instance:com.Testing.Grouping@1e7c7811]" name="lenovo1" duration-ms="15" started-at="2022-02-19T21:29:25 IST" finished-at="2022-02-19T21:29:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lenovo1 -->
+        <test-method status="PASS" signature="lenovo2()[pri:0, instance:com.Testing.Grouping@1e7c7811]" name="lenovo2" duration-ms="16" started-at="2022-02-19T21:29:25 IST" finished-at="2022-02-19T21:29:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lenovo2 -->
+        <test-method status="PASS" signature="vivo1()[pri:0, instance:com.Testing.Grouping@1e7c7811]" name="vivo1" duration-ms="0" started-at="2022-02-19T21:29:25 IST" finished-at="2022-02-19T21:29:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo1 -->
+        <test-method status="PASS" signature="vivo2()[pri:0, instance:com.Testing.Grouping@1e7c7811]" name="vivo2" duration-ms="0" started-at="2022-02-19T21:29:25 IST" finished-at="2022-02-19T21:29:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo2 -->
+      </class> <!-- com.Testing.Grouping -->
+    </test> <!-- Group test -->
+  </suite> <!-- Group suite -->
+</testng-results>

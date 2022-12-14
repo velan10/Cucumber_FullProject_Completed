@@ -125,7 +125,7 @@
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>json-schema-validator</artifactId>
-    <version>4.3.3</version>
+    <version>4.5.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
 <dependency>
